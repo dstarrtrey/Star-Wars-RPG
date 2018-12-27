@@ -1,6 +1,7 @@
 body{
     background-image: url(../images/arena_background.jpg);
     max-width: 1510px;
+    margin: auto;
 }
 h1{
     font-size: 30px;
