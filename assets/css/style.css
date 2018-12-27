@@ -1,0 +1,89 @@
+body{
+    background-image: url(../images/arena_background.jpg);
+}
+h1{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+div{
+    color: white;
+    font-size: 18px;
+}
+.hidden{
+    display: none;
+}
+.grid{
+    display: inline-grid;
+    grid-template-columns: 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143%;
+    grid-column-gap: 1%;
+    width: 100%;
+}
+.word-grid{
+    display: inline-grid;
+    grid-template-columns: 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143% 13.42857142857143%;
+    grid-column-gap: 1%;
+    width: 100%;
+}
+.grid-item{
+    box-sizing: border-box;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.hp{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.blue-img{
+    border: 3px solid blue;
+}
+.yellow-img{
+    border: 3px solid yellow;
+}
+.red-img{
+    border: 3px solid red;
+}
+.blue-caption{
+    background-color: blue;
+    color: white;
+}
+.yellow-caption{
+    background-color: yellow;
+    color: black;
+}
+.red-caption{
+    background-color: red;
+    color: white;
+}
+.victory{
+    font-size: 30px;
+    color: #00ff00;
+    border: 5px dotted #ffff00;
+    text-align: center;
+    background-color: #ff4dff;
+}
+.failure{
+    font-size: 30px;
+    color: #000;
+    border: 5px dotted #000000;
+    text-align: center;
+    background-color: #800000
+}
+.x{
+    width: 100%;
+    position: relative;
+    left: -108%;
+    top: 0;
+    z-index: 3;
+}

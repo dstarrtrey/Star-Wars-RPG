@@ -19,13 +19,27 @@
         <![endif]-->
         <div class="new-game" id="game">
             <h1>Star Wars Genosis Droid Arena RPG</h1>
-            <div id="atacker"></div>
+            <div>
+                <div class="word-grid" id="attacker-names"></div>
+                <div class="grid" id="attacker"></div>
+                <div class="word-grid" id="attacker-hp"></div>
+            </div>
             <div id="attacker-label"></div>
-            <div id="enemies"></div>
+            <div>
+                <div class="word-grid" id="enemies-names"></div>
+                <div class="grid" id="enemies"></div>
+                <div class="word-grid" id="enemies-hp"></div>
+            </div>
             <div id="enemies-label"></div>
-            <button id="attack-btn">Attack</button>
+            <button class="hidden" id="attack-btn">Attack</button>
+            <div id="btn-instructions"></div>
             <div id="defender-label"></div>
-            <div id="defender"></div>
+            <div>
+                <div class="word-grid" id="defender-names"></div>
+                <div class="grid" id="defender"></div>
+                <div class="word-grid" id="defender-hp"></div>
+            </div>
+            <div id="damages"></div>
         </div>
         <script src="assets/js/game.js" async defer></script>
     </body>
