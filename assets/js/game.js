@@ -136,6 +136,7 @@ $(document).ready(function(){
                 $("#defender-label").text("");
                 $("#defender").append(`<img class="x" src="assets/images/big x.png">`);
                 $("#btn-instructions").text("Your droid has proven its mettle! You win! Reload to play again.");
+                $("#enemies-label").html('<iframe width="560" height="315" src="https://www.youtube.com/embed/e_DqV1xdf-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
                 $("#btn-instructions").addClass("victory");
             }
         }        
